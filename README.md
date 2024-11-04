@@ -10,12 +10,13 @@ By telling a compelling story and building an interactive dashboard Power Bi rep
 ### DATA DESCRIPTION:
 This dataset includes the following Columns:
 - Order Number
-
-
-
-
-
-
+- Customer Id
+- products
+- region
+- Order Date
+- Quantity
+- Unit Price
+  
 ### DASH BOARD REVIEW
 - Customer Id
 - products: Items sold in the store
@@ -40,4 +41,6 @@ making it accessible to
   - SQL to write various queries
   - Power BI to create dashboards using various charts (pieChart and clustered Column Chart)
  
-- creatin
+
+
+### DASH BOARD OVERVIEW
