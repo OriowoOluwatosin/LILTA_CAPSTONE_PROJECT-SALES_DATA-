@@ -20,9 +20,17 @@ This dataset includes the following Columns:
 ### STATISTICS ABOUT THE DATASET:
 Number of Unique Customers: 50,000
 Number of Products: 6
-Total Sales: 10587500
-Total Region: 4
-![image](https://github.com/user-attachments/assets/e260abe1-8773-4574-ac85-2f3f97b30e34)
- 
+Total Sales: 10587500 ![image](https://github.com/user-attachments/assets/e260abe1-8773-4574-ac85-2f3f97b30e34)
+Total Region: 4 
 
-- 
+### METHODOLOGY
+
+#### Data Collection
+The dataset for this analysis was provided by LITA_ The Incubator Hub for leaening and training purposes. The data was provided in Excel sheet [download Here] (https://canvas.instructure.com/files/273182802/download?download_frd=1)
+making it accessible to 
+- analyse the excel sheet
+  The excel sheet was further converted to CSV format for easy importing of files into:
+  - SQL to write various queries
+  - Power BI to create dashboards using various charts (pieChart and clustered Column Chart)
+ 
+- creatin
