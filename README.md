@@ -10,6 +10,13 @@ By telling a compelling story and building an interactive dashboard Power Bi rep
 ### DATA DESCRIPTION:
 This dataset includes the following Columns:
 - Order Number
+
+
+
+
+
+
+### DASH BOARD REVIEW
 - Customer Id
 - products: Items sold in the store
 - region: The other regional branches of the store ( North, South, East West) 
