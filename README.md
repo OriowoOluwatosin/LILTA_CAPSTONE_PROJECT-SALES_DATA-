@@ -71,19 +71,19 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
      From [dbo]
      Group by customer_id
      Order by TotalPurchaseAmount desc;
- 6. ```Select region,
-  sum(quantity*unitprice) as totalsales,
-  Sum(quantity*unitprice) * 1.0/ (select sum(quantity*unitprice)
-  From [dbo] * 100
-  As PercentageOfTotalSales
-  From [dbo]
-  Group by region;
- 7. ```Select distinct product
-  From [dbo]
-  Where product Not In(
-  Select product
-  From [dbo]
-  Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
+  6. ```Select region,
+     sum(quantity*unitprice) as totalsales,
+     Sum(quantity*unitprice) * 1.0/ (select sum(quantity*unitprice)
+     From [dbo] * 100
+     As PercentageOfTotalSales
+     From [dbo]
+     Group by region;
+  7. ```Select distinct product
+     From [dbo]
+     Where product Not In(
+     Select product
+     From [dbo]
+     Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
  
 
