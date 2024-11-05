@@ -1,7 +1,17 @@
 # LITA_CAPSTONE_PROJECT-SALES_DATA-
 
 ### OUTLINE
-[ PROJECT OVERVIEW: ](#project_overview)
+[ PROJECT OVERVIEW: ](#project-overview)
+[ DATA DESCRIPTION: ](#data-description)
+[ DASH BOARD REVIEW: ](#dash-board-review)
+[ STATISTICS ABOUT THE DATASET: ](statistics-about-the-dataset)
+[ METHODOLOGY: ](methodology)
+[ DATA ANALYSIS: ](data-analysis)
+[ DASH BOARD OVERVIEW WITH POWER BI: ](dash-board-review-with-powerbi)
+[ INSIGHTS GENERATION: ](insights-generation)
+[ RECOMMENDATION: ](recommendation)
+[ CONCLUSION: ](conclusion)
+
 
 
 ### PROJECT OVERVIEW:
@@ -23,7 +33,7 @@ This dataset includes the following Columns:
 - Quantity
 - Unit Price
   
-### DASH BOARD REVIEW
+### DASH BOARD REVIEW:
 ---
 - Customer Id
 - products: Items sold in the store
@@ -39,7 +49,7 @@ Number of Products: 6
 Total Sales: 10587500 ![image](https://github.com/user-attachments/assets/e260abe1-8773-4574-ac85-2f3f97b30e34)
 Total Region: 4 
 
-### METHODOLOGY
+### METHODOLOGY:
 ---
 
 #### Data Collection
@@ -50,7 +60,7 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
   - SQL to write various queries
   - Power BI to create dashboards using various charts (pieChart and clustered Column Chart)
 
-### DATA ANALYSIS
+### DATA ANALYSIS:
 ---
 
 #### Calculation in Excel 
@@ -130,11 +140,11 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 
 
 
-### DASH BOARD OVERVIEW WITH POWER BI
+### DASH BOARD OVERVIEW WITH POWER BI:
 ---
 ![image](https://github.com/user-attachments/assets/83b20752-08f5-48a7-a528-7f576f047632)
 
-### INSIGHTS GENERATION
+### INSIGHTS GENERATION:
 - - -
 
 #### Insights on Total Sales (Revenue) In The Different Regions
@@ -150,13 +160,13 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 **Chart Display**
 ![my project capstone chart1](https://github.com/user-attachments/assets/d7ed65cf-2221-41e6-b382-8697adcf8f9b)
 
-### RECOMMENDATION
+### RECOMMENDATION:
 ---
 **Region Comparison:** Implement targeted marketing strategies, campaign or advert to create more awareness in the North and West region especially so as to curate more sales and generate more revenue
 
 **Sales Optimization:** Make most effective use of the market trend by stocking more items with lead revenue generating power which are (Shoes and Shirts)
 
-### CONCLUSION
+### CONCLUSION:
 ---
 The retail shops in the North ancd west region needs more focus and attention on 
 - boosting revenue through marketing strategies
