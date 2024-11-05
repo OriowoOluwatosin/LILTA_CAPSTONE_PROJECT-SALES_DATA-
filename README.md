@@ -44,7 +44,9 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 ### DATA ANALYSIS
 
 #### Calculation in Excel
-*Generating Total Sales ```=F2*G2
+*Generating Total Sales* (=F2* G2)
+*calculating average sales by product* ``` =AVERAGEIF($C1:$C50001,$C2,$H1:$H50001)
+
  
 
 
