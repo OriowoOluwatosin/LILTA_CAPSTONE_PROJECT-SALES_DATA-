@@ -47,6 +47,8 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 - *Generating Total Sales* ```(=F2* G2)```
 - *calculating average sales by product* 
 ``` =AVERAGEIF($C1:$C50001,$C2,$H1:$H50001)```
+ ![my project](https://github.com/user-attachments/assets/87c6d21d-ad92-4a90-ba4e-5597ae6631fd)
+
 #### Queries in SQL
 - SQL
   1. ```Select product,
@@ -85,7 +87,8 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
      From [dbo]
      Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
- 
+ ![my project](https://github.com/user-attachments/assets/87c6d21d-ad92-4a90-ba4e-5597ae6631fd)
+
 
 
 ### DASH BOARD OVERVIEW
