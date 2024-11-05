@@ -17,7 +17,9 @@
 
 [ INSIGHTS GENERATION: ](insights-generation)
 
+
 [ RECOMMENDATION: ](recommendation)
+
 
 [ CONCLUSION: ](conclusion)
 
