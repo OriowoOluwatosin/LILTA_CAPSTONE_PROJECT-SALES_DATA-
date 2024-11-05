@@ -1,5 +1,9 @@
 # LITA_CAPSTONE_PROJECT-SALES_DATA-
 
+### OUTLINE
+[PROJECT OVERVIEW:] (#project-overview)
+
+
 ### PROJECT OVERVIEW:
 ---
 Making reference to the data and capstone project document shared earlier, by analyzing the sales performance of a retail store and carrying out the following exploratory process of the sales data to uncover key insights such as
