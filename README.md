@@ -34,12 +34,17 @@ Total Region: 4
 ### METHODOLOGY
 
 #### Data Collection
-The dataset for this analysis was provided by LITA_ The Incubator Hub for leaening and training purposes. The data was provided in Excel sheet [download Here] (https://canvas.instructure.com/files/273182802/download?download_frd=1)
-making it accessible to 
+The dataset for this analysis was provided by LITA_ The Incubator Hub for leaening and training purposes. The data was provided in Excel sheet [download Here] (https://canvas.instructure.com/files/273182802/download?download_frd=1) or https://eu.docworkspace.com/d/sILre1-uDAsKJzrgG?sa=wa&ps=1&fn=LITA%20Capstone%20Dataset%20(1).xlsx
+ The excel sheet making it accessible to 
 - analyse the excel sheet
   The excel sheet was further converted to CSV format for easy importing of files into:
   - SQL to write various queries
   - Power BI to create dashboards using various charts (pieChart and clustered Column Chart)
+
+### DATA ANALYSIS
+
+#### Calculation in Excel
+*Generating Total Sales ```=F2*G2
  
 
 
