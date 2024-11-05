@@ -55,17 +55,35 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
   2. ```Select region,
      count(*) as NumberOfTransactions
      From [dbo] Group by region;
- 3. ```select top 1 product,
+  3. ```select top 1 product,
     sum(quantity*unitprice) as totalsales
     From [dbo]
     Group by product
     Order by totalsales desc;
-4. ```Select month(OrderDate) as month,
+  4. ```Select month(OrderDate) as month,
    sum(quantity*unitprice) as MonthlySales
    From [dbo]
    Where year(OrderDate) = year(GetDate())
    Group by month(OrderDate)
    Order by month;
+  5. ```Select top 5 customer_id,
+   sum(quantity*unitprice) as totalpurchaseAmount
+   From [dbo]
+   Group by customer_id
+   Order by TotalPurchaseAmount desc;
+ 6. ```Select region,
+  sum(quantity*unitprice) as totalsales,
+  Sum(quantity*unitprice) * 1.0/ (select sum(quantity*unitprice)
+  From [dbo] * 100
+  As PercentageOfTotalSales
+  From [dbo]
+  Group by region;
+ 7. ```Select distinct product
+  From [dbo]
+  Where product Not In(
+  Select product
+  From [dbo]
+  Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
  
 
