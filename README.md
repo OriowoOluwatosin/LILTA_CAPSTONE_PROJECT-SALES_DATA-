@@ -4,11 +4,17 @@
 [ PROJECT OVERVIEW: ](#project-overview)
 
 [ DATA DESCRIPTION: ](#data-description)
+
 [ DASH BOARD REVIEW: ](#dash-board-review)
+
 [ STATISTICS ABOUT THE DATASET: ](statistics-about-the-dataset)
+
 [ METHODOLOGY: ](methodology)
+
 [ DATA ANALYSIS: ](data-analysis)
+
 [ DASH BOARD OVERVIEW WITH POWER BI: ](dash-board-review-with-powerbi)
+
 [ INSIGHTS GENERATION: ](insights-generation)
 [ RECOMMENDATION: ](recommendation)
 [ CONCLUSION: ](conclusion)
