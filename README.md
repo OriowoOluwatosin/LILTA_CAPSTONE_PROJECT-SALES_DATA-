@@ -54,17 +54,18 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
      From [dbo] Group by product;
   2. ```Select region,
      count(*) as NumberOfTransactions
-```From [dbo] Group by region;
- 3. ```select top 1 product, sum(quantity*unitprice) as totalsales
-```From [dbo]
-```Group by product
-```Order by totalsales desc;```
-
-4. ```Select month(OrderDate) as month, sum(quantity*unitprice) as MonthlySales
-```From [dbo]
-```Where year(OrderDate) = year(GetDate())
-```Group by month(OrderDate)
-Order by month;```
+     From [dbo] Group by region;
+ 3. ```select top 1 product,
+    sum(quantity*unitprice) as totalsales
+    From [dbo]
+    Group by product
+    Order by totalsales desc;
+4. ```Select month(OrderDate) as month,
+   sum(quantity*unitprice) as MonthlySales
+   From [dbo]
+   Where year(OrderDate) = year(GetDate())
+   Group by month(OrderDate)
+   Order by month;
 
  
 
