@@ -52,7 +52,7 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
   1. ```Select product,
      sum(quantity*unitprice) as totalsale
  ```From [dbo]
- ```Group by product;
+ Group by product;```
  
   2. ```Select region,
      count(*) as NumberOfTransactions
@@ -68,7 +68,7 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 ```From [dbo]
 ```Where year(OrderDate) = year(GetDate())
 ```Group by month(OrderDate)
-```Order by month;
+Order by month;```
 
  
 
