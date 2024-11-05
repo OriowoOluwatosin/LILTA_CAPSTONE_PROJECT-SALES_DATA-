@@ -1,7 +1,7 @@
 # LITA_CAPSTONE_PROJECT-SALES_DATA-
 
 ### OUTLINE
-[PROJECT OVERVIEW:] (#project_overview)
+[ PROJECT OVERVIEW: ] (#project_overview)
 
 
 ### PROJECT OVERVIEW:
