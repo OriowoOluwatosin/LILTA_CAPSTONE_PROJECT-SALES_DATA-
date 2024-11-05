@@ -171,7 +171,7 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 - Shirt: Close behind is shirt  with total sales of 2,450,000  which is about 23.14% of the total Sales. This indicates a competitive market and categorised as the second best  purchased product
 
 **Chart Display**
-![my project capstone chart1](https://github.com/user-attachments/assets/d7ed65cf-2221-41e6-b382-8697adcf8f9b)
+![my project capstone chart2](https://github.com/user-attachments/assets/f7a767c5-d757-41aa-93b8-33025e62cd93)
 
 ### RECOMMENDATION:
 ---
