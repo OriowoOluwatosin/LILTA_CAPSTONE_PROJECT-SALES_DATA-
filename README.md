@@ -49,13 +49,17 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 ``` =AVERAGEIF($C1:$C50001,$C2,$H1:$H50001)```
 #### Queries in SQL
 - SQL
-  1. ```Select product, sum(quantity*unitprice) as totalsale
+  1. ```Select product,
+     sum(quantity*unitprice) as totalsale
  From [dbo]
  Group by product;```
-  2. ```Select region, count(*) as NumberOfTransactions
+ 
+  2. ```Select region,
+     count(*) as NumberOfTransactions
 From [dbo]
 Group by region;```
- 3. ```select top 1 product, sum(quantity*unitprice) as totalsales
+
+3. ```select top 1 product, sum(quantity*unitprice) as totalsales
 From [dbo]
 Group by product
 Order by totalsales desc;```
