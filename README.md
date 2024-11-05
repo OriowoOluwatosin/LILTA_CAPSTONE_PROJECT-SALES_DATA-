@@ -51,7 +51,7 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 - SQL
   1. ```Select product,
      sum(quantity*unitprice) as totalsale
- From [dbo]
+ ```From [dbo]
  Group by product;
  
   2. ```Select region,
