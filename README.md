@@ -68,7 +68,7 @@ Group by region;```
 ```From [dbo]
 ```Where year(OrderDate) = year(GetDate())
 ```Group by month(OrderDate)
-```Order by month;```
+```Order by month;
 
  
 
