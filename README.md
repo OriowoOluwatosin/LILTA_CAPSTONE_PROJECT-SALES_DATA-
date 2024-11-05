@@ -43,18 +43,26 @@ The dataset for this analysis was provided by LITA_ The Incubator Hub for leaeni
 
 ### DATA ANALYSIS
 
-#### Calculation in Excel And Pivot Table
+#### Calculation in Excel 
 - *Generating Total Sales* ```(=F2* G2)``` ![Capture total sales as revenue](https://github.com/user-attachments/assets/a230d6b0-fd45-426d-8c78-e1da9e9b53cf)
 
 - *calculating average sales by product* 
-``` =AVERAGEIF($C1:$C50001,$C2,$H1:$H50001)``` ![Capture sales data average by product](https://github.com/user-attachments/assets/288b1f45-dfc4-46a9-8b70-92f3db897fe9)
-- *calculating total revenue by region
-``` ==SUMIF($D1:$D50001,$D12630,$H1:$H50001)``` ![Capture total revenue by region sales data](https://github.com/user-attachments/assets/13c7134e-d9b1-48e9-8ad2-7642f83a542a)
+``` =AVERAGEIF($C1:$C50001,$C2,$H1:$H50001)```
+ ![Capture sales data average by product](https://github.com/user-attachments/assets/288b1f45-dfc4-46a9-8b70-92f3db897fe9)
 
+- *calculating total revenue by region
+``` ==SUMIF($D1:$D50001,$D12630,$H1:$H50001)```
+![Capture total revenue by region sales data](https://github.com/user-attachments/assets/13c7134e-d9b1-48e9-8ad2-7642f83a542a)
+
+#### Excel Chart
+![my project capstone chart1](https://github.com/user-attachments/assets/d7ed65cf-2221-41e6-b382-8697adcf8f9b)
 
 ![my project capstone chart2](https://github.com/user-attachments/assets/f7a767c5-d757-41aa-93b8-33025e62cd93)
 
- - pivot Table  ![my project](https://github.com/user-attachments/assets/87c6d21d-ad92-4a90-ba4e-5597ae6631fd)
+    
+#### Pivot Table 
+  
+  ![my project](https://github.com/user-attachments/assets/87c6d21d-ad92-4a90-ba4e-5597ae6631fd)
 ![my project capstone pivot excel](https://github.com/user-attachments/assets/c96eb393-2587-4072-b9e7-844e81727fcd)
 
 #### Queries in SQL
