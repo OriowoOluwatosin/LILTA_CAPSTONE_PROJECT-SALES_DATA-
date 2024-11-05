@@ -2,6 +2,7 @@
 
 ### OUTLINE
 [ PROJECT OVERVIEW: ](#project-overview)
+
 [ DATA DESCRIPTION: ](#data-description)
 [ DASH BOARD REVIEW: ](#dash-board-review)
 [ STATISTICS ABOUT THE DATASET: ](statistics-about-the-dataset)
